@@ -1,7 +1,7 @@
 {
-  "name": "XBOT",
+  "name": "VVIPBOT",
   "version": "1.0.0",
-  "description": "Xbot for whatsapp online with termux",
+  "description": "cikabot for whatsapp online with termux",
   "main": "index.js",
   "directories": {
     "lib": "lib"
@@ -13,15 +13,15 @@
   "keywords": [
     "k"
   ],
-  "author": "affis junianto",
+  "author": "Agus Aliansyah",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/affisjunianto/botwasapv2.git"
+    "url": "git+https://github.com/AgusAliansyah/cika.git"
   },
   "bugs": {
-    "url": "https://github.com/affisjunianto/botwasapv2/issues"
+    "url": "https://github.com/AgusAliansyah/cika/issues"
   },
-"homepage": "https://github.com/affisjunianto/botwasapv2/readme",
+"homepage": "https://github.com/AgusAliansyah/cika/readme",
 "license": "ISC",
 "dependencies": {
     "@adiwajshing/baileys": "^3.3.0",
