@@ -47,11 +47,11 @@ const samih = JSON.parse(fs.readFileSync('./database/bot/simi.json'))
 /*********** END LOAD ***********/
 
 /*********** DATABASE LEVEL********/
-aha = 0
+aha = 1
 ahb = 2
-ahc = 4
-ahd = 6
-ahe = 8
+ahc = 3
+ahd = 4
+ahe = 5
 ahf = 10
 /*********** DATABASE LEVEL********/
 
