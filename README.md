@@ -26,7 +26,59 @@ Re-upload numpang ganti nama gabakal bikin lu pro
 
 Download aplikasi termux disini [DOWNLOAD](https://play.google.com/store/apps/details?id=com.termux) 
 Custom di sini [SETTING](https://github.com/AgusAliansyah/vvipbot-wa/blob/master/index.js/#L13)
+##Feature
+```bash
+Sticker✅
+TTS✅
+Toimg✅
+Ocr✅
+Tiktokstalk✅
+Fototiktok✅
+Truth/Dare✅
+Ssweb✅
+Arti nama ✅
+Spamcall✅
+Quotes ✅
+Kbbi✅
+Map✅
+Cerpen✅
+Chord ✅
+Lirik✅
+Phlogo✅
+Bisakah,Apakah,Kapankah✅
+Rate✅
+Owner✅
 
+---Nsfw---
+Anjing✅
+
+
+----Group----
+Hidetag✅
+Linkgc✅
+Tagall ✅
+Setpp✅
+Add ✅
+Kick✅
+Setname ✅
+Setdesc ✅
+Promote & Demote ✅
+Listadmin✅
+Group [tutup/buka]✅
+Nsfw✅
+Leveling✅
+Simih✅
+Welcome ✅
+
+Owner
+-----
+Bc✅
+Setprefix✅
+Getses✅
+Clearall✅
+Block&unblock✅
+Leave ✅
+Clone✅
 
 ## Penginstalan
 
@@ -73,6 +125,6 @@ Terakhir scan kode QR
 * [`mrfzvx12`](https://github.com/mrfzvx12)
 * [`Aruga`](https://github.com/ArugaZ)
 * [`Mhankbarbar`](https://github.com/MhankBarBar)
-* [`Alfiansx`](https://github.com/alfiansx)
+
 * [`Bintang73`](https://github.com/Bintang73)
 * [`Adiwajshing`](https://github.com/adiwajshing/Baileys)
