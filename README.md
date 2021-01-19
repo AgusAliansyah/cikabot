@@ -80,6 +80,7 @@ Block&unblock✅
 Leave ✅
 Clone✅
 
+```bash
 ## Penginstalan
 
 Jika pertama kali membuka termux lakukan perintah berikut :
