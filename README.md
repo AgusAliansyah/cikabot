@@ -26,6 +26,8 @@ Re-upload numpang ganti nama gabakal bikin lu pro
 
 Download aplikasi termux disini [DOWNLOAD](https://play.google.com/store/apps/details?id=com.termux) 
 Custom di sini [SETTING](https://github.com/AgusAliansyah/vvipbot-wa/blob/master/index.js/#L13)
+
+
 ##Feature
 ```bash
 Sticker✅
@@ -80,7 +82,7 @@ Block&unblock✅
 Leave ✅
 Clone✅
 
-```bash
+
 ## Penginstalan
 
 Jika pertama kali membuka termux lakukan perintah berikut :
