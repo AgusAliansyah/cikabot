@@ -28,59 +28,6 @@ Download aplikasi termux disini [DOWNLOAD](https://play.google.com/store/apps/de
 Custom di sini [SETTING](https://github.com/AgusAliansyah/vvipbot-wa/blob/master/index.js/#L13)
 
 
-##Feature
-
-Sticker✅
-TTS✅
-Toimg✅
-Ocr✅
-Tiktokstalk✅
-Fototiktok✅
-Truth/Dare✅
-Ssweb✅
-Arti nama ✅
-Spamcall✅
-Quotes ✅
-Kbbi✅
-Map✅
-Cerpen✅
-Chord ✅
-Lirik✅
-Phlogo✅
-Bisakah,Apakah,Kapankah✅
-Rate✅
-Owner✅
-
----Nsfw---
-Anjing✅
-
-
-----Group----
-Hidetag✅
-Linkgc✅
-Tagall ✅
-Setpp✅
-Add ✅
-Kick✅
-Setname ✅
-Setdesc ✅
-Promote & Demote ✅
-Listadmin✅
-Group [tutup/buka]✅
-Nsfw✅
-Leveling✅
-Simih✅
-Welcome ✅
-
-Owner
------
-Bc✅
-Setprefix✅
-Getses✅
-Clearall✅
-Block&unblock✅
-Leave ✅
-Clone✅
 
 
 ## Penginstalan
@@ -116,10 +63,124 @@ Jalankan bot
 > node index.js
 ```
 Terakhir scan kode QR
+## FITUR
+
+| SIMSIMI |❌|
+| ------------- | ------------- |
+| Simsimi |❌|
+
+| FUN |Yes|
+| ------------- | ------------- |
+| Truth Or Dare|✅|
+| Artinama|✅|
+| Puisi|❌|
+| Cerpen|❌|
+| Hidetag|✅|
+| Tagall|✅|
+| Phlogo|✅|
+|Rate |✔|
+|Toimg|✅|
+
+
+
+| Gombal|❌|
+
+
+
+| PRIMBON |Yes|
+| ------------- | ------------- |
+| Arti nama|✅|
+| qutotemaker|✅|
+| kbbi|✅|
+
+
+| Game |✅|
+| ------------- | ------------- |
+| Tebak gambar|✅|
+| Family 100|❌|
+| Truth or dare|✅|
+| Kerang ajaib (apakah, bolehkah, kapan)|✅|
+
+
+| DOWNLOAD |Yes|
+| ------------- | ------------- |
+| Youtube Music |✅|
+| Youtube Video |✅|
+| Instagram foto/video |✅|
+| Facebook video |✅|
+| Twitter video |✅|
+
+| TOOLS |Yes|
+| ------------- | ------------- |
+| Nulis|❌|
+| Stiker|✅|
+| OCR|✅|
+| Instagram stalker|✅|
+| Shortlink|✅|
+
+| PICTURE |Yes|
+| ------------- | ------------- |
+| Cecan|✅|
+| Cogan|✅|
+| Anime|✅|
+| Loli|✅|
+| Neko|✅|
+| Wallpaper|✅|
+| Quotes|✅|
+| Twitter|✅|
+| Meme|✅|
+| Img|✅|
+
+| TEXT |Yes|
+| ------------- | ------------- |
+| Quotes maker|✅|
+| Logo pornhub|✅|
+| Logo e-sport|❌|
+
+| EDUKASI |Yes|
+| ------------- | ------------- |
+| Al-Qur'an|✅|
+| Al-Qur'an per surah|✅|
+| Brainly|✅|
+| Wikipedia|✅|
+| Fakta|✅|
+| KBBI|✅|
+| Tanggal Nasional|✅|
+
+| WHEATER |Yes|
+| ------------- | ------------- |
+| Info BMKG |✅|
+| Info gempa |✅|
+| Info cuaca |✅|
+
+| Others |Yes|
+| ------------- | ------------- |
+| Jadwal tv|✅|
+| Jadwal tv (channel)|✅|
+| Jadwal sholat|✅|
+| Info Covid|✅|
+| Info anime|✅|
+| Lirik lagu|✅|
+| Chord lagu|✅|
+| Mini map|✅|
+
+| Groups |Yes|
+| ------------- | ------------- |
+| Merubah Nama grup|✅|
+| Merubah deskripsi grup|✅|
+| Menutup grup|✅|
+| Membuka grup|✅|
+| Kick|✅|
+| Add|✅|
+| Setpp|✅|
+| Demote & Promote|✅|
+| LinkGc|✅|
+| Add|✅|
+
 
 
 ## Contacts
-* [Instagram](https://www.instagram.com/agus.alnsyh71)
+* [Instagram](https://www.instagram.com/agus.alnsyh)
 * My whatsapp [Agus Aliansyah](https://wa.me/6289613469459)
 
 
