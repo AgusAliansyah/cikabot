@@ -29,7 +29,7 @@ Custom di sini [SETTING](https://github.com/AgusAliansyah/vvipbot-wa/blob/master
 
 
 ##Feature
-```bash
+
 Sticker✅
 TTS✅
 Toimg✅
