@@ -23,7 +23,7 @@ exports.lvlnoon = () => {
 }
 
 exports.noregis = () => {
-	return`*「 BELUM DAFTAR 」*\n\n*cara daftar ${prefix}daftar nama|umur* \n*contoh ${prefix}daftar namalu|umurlu*`
+	return`*「 BELUM DAFTAR 」*\n\n*cara daftar ${prefix}daftar nama|umur* \n*contoh ${prefix}daftar VVIPBOT|17*`
 }
 
 exports.rediregis = () => {
@@ -114,18 +114,143 @@ exports.reglevelahf = (command, pushname, getLevelingLevel, sender, ahf) => {
 	return`*Maaf ${pushname} level mu belum mencukupi*\n\n*┏⊱level mu : ${getLevelingLevel(sender)}*\n*┣⊱jenis command : ${command}*\n*┗⊱syarat level : ${ahf}*\n\n_NOTE : CHAT/SELALU ON UNTUK MENDAPATKAN XP_`
 }
 
-exports.antilinker = (pushname) => {
-	return`*Maaf ${pushname}*\n*anda di kick dari group karena telah mengirim link group lain*`
+exports.menu = (pushname, prefix, getLevelingLevel, getLevelingXp, sender, reqXp, _registered, uangku, role) => { 
+	return `
+┏━━━⊱  *ABOUT USER*  ⊰━━┓
+┣⊱ *Nama* : ${pushname}
+┣⊱ *Nomer* : wa.me/${sender.split("@")[0]}
+┣⊱ *Uang mu* : Rp${uangku}
+┣⊱ *XP* : ${getLevelingXp(sender)}/${reqXp}
+┣⊱ *Role* : ${role}
+┣⊱ *Level* : ${getLevelingLevel(sender)}
+┣⊱ *User register* : ${_registered.length}
+┗━━━⊱  ⸨ *VVIPBOT* ⸩  ⊰━━━━┛
+
+
+┏━━⊱ *MAKER MENU* ⊰━━┓
+┣⊱ *${prefix}sticker* 
+┣⊱ *${prefix}avengers* <teks|teks>
+┣⊱ *${prefix}summer* <teks>
+┣⊱ *${prefix}sandwrite* <teks>
+┣⊱ *${prefix}metaldark* <teks>
+┣⊱ *${prefix}dropwater* <teks>
+┣⊱ *${prefix}greenneon* <teks>
+┣⊱ *${prefix}neontext* <teks>
+┣⊱ *${prefix}sumery* <teks>
+┣⊱ *${prefix}blood* <teks>
+┣⊱ *${prefix}firework* <teks>
+┣⊱ *${prefix}lava* <teks>
+┣⊱ *${prefix}qrcode* <teks>
+┣━━⊱  *FUN MENU*  ⊰━━━┫
+┣⊱ *${prefix}mining*
+┣⊱ *${prefix}bisakah* <teks>
+┣⊱ *${prefix}kapankah* <teks>
+┣⊱ *${prefix}apakah* <teks>
+┣⊱ *${prefix}rate* <teks>
+┣⊱ *${prefix}slap*
+┣⊱ *${prefix}tampar*
+┣⊱ *${prefix}moddroid* <teks>
+┣⊱ *${prefix}happymod* <teks>
+┣⊱ *${prefix}nangis*
+┣⊱ *${prefix}cium*
+┣⊱ *${prefix}peluk*
+┣━━⊱ *MUTUAL* ⊰━━━━━┫
+┣⊱ *${prefix}mutual*
+┣⊱ *${prefix}next*
+┣━━⊱ *MEDIA MENU* ⊰━━┫
+┣⊱ *${prefix}brainly* [error]
+┣⊱ *${prefix}pinterest*
+┣⊱ *${prefix}resepmasakan* <teks>
+┣⊱ *${prefix}igstalk* <username>
+┣⊱ *${prefix}bitly* <link>
+┣━━⊱ *YT & SONG* ⊰━━━┫
+┣⊱ *${prefix}ytmp3* <link>
+┣⊱ *${prefix}ytmp4* <link>
+┣⊱ *${prefix}joox* <judul>
+┣━━⊱  *NSFW MENU*  ⊰━┫
+┣⊱ *${prefix}anjing*
+┣⊱ *${prefix}blowjob*
+┣⊱ *${prefix}nekonime*
+┣⊱ *${prefix}husbu*
+┣⊱ *${prefix}ranime*
+┣━━⊱ *LIMIT & UANG* ⊰━┫
+┣⊱ *${prefix}limit* 
+┣⊱ *${prefix}buylimit* <jumblah>
+┣⊱ *${prefix}transfer* <tag |jumblah>
+┣⊱ *${prefix}dompet*
+┣━━⊱ *GROUP MENU* ⊰━┫
+┣⊱ *${prefix}hidetag*
+┣⊱ *${prefix}grouplist*
+┣⊱ *${prefix}level*
+┣⊱ *${prefix}linkgc*
+┣⊱ *${prefix}tagall*
+┣⊱ *${prefix}setpp*
+┣⊱ *${prefix}add* <tag>
+┣⊱ *${prefix}kick* <tag>
+┣⊱ *${prefix}setname* <teks>
+┣⊱ *${prefix}setdesc* <teks>
+┣⊱ *${prefix}demote* <tag>
+┣⊱ *${prefix}promote* <tag>
+┣⊱ *${prefix}listadmin*
+┣⊱ *${prefix}group* [buka/tutup]
+┣⊱ *${prefix}leveling* [enable/disable]
+┣⊱ *${prefix}nsfw* [1/0]
+┣⊱ *${prefix}simih* [1/0]
+┣⊱ *${prefix}welcome* [1/0]
+┣━━⊱ *OWNER MENU* ⊰━┫
+┣⊱ *${prefix}bc* <teks>
+┣⊱ *${prefix}bcgc* <teks>
+┣⊱ *${prefix}kickall* <rawan ban>
+┣⊱ *${prefix}setreply* <teks>
+┣⊱ *${prefix}setprefix* <symbol>
+┣⊱ *${prefix}clearall*
+┣⊱ *${prefix}block* <tag>
+┣⊱ *${prefix}unblock* <tag>
+┣⊱ *${prefix}leave*
+┣⊱ *${prefix}event* [1/0]
+┣⊱ *${prefix}clone* <tag>
+┣⊱ *${prefix}setppbot*
+┣━━⊱ *THANGKS TO* ⊰━━┫
+┃
+┣⊱ *AFFIS JUNIANTO* <dev>
+┣⊱ *FADHIL GRAPHY* <partner>
+┣⊱ *MHANKBARBARS* <sc ori>
+┣⊱ *MYBOT TEAM* <team>
+┃
+┣⊱ NOTE : TQTO DI HAPUS
+┃ GW GAK UP LAGI OKE
+┃
+┗━━⊱  ⸨ *X-BOT* ⸩  ⊰━━━━┛
+`
 }
 
-exports.detectorOnAlready = () => {
-	return`*SEBELUM NYA ANTILINK SUDAH AKTIF*`
+exports.levelup = (pushname, sender, getLevelingXp,  getLevel, getLevelingLevel, role) => {
+	return`
+*「 SELAMAT 」*
+┏⊱ *Nama* : ${pushname}
+┣⊱ *Nomer* : wa.me/${sender.split("@")[0]}
+┣⊱ *Xp* : ${getLevelingXp(sender)}
+┣⊱ *Limit* : +3
+┣⊱ *Role* :  ${role}
+┗⊱ *Level* : ${getLevel} ⊱ ${getLevelingLevel(sender)}
+`}
+ 
+exports.limitend = (pushname) => {
+	return`*maaf ${pushname} limit hari ini habis*\n*beli limit untuk mendapatkan limit/ naik level*`
 }
 
-exports.antilinkOn = (groupName) => {
-	return`*「 ANTILINK 」*\n\n*perhatian group ${groupName} telah mengaktifkan fitur antilink*\n*jika kalian mengirimkan link group maka akan di kick otomatis*`
+exports.limitcount = (limitCounts) => {
+	return`
+*「 LIMIT COUNT 」*
+sisa limit anda : ${limitCounts}
+
+NOTE : untuk mendapatkan limit. bisa lewat naik level atau buylimit`
 }
 
-exports.antilinkOf = () => {
-	return`*「 ANTILINK 」NON AKTIF*`
+exports.satukos = () => {
+	return`*Tambah parameter 1/enable atau 0/disable`
+}
+
+exports.uangkau = (pushname, sender, uangkau) => {
+	return`*┏⊱ 「 ATM 」⊰━┓*\n┣⊱ *Nama* : ${pushname}\n┣⊱ *Nomer* : ${sender.split("@")[0]}\n┣⊱ *Uang* : ${uangkau}\n┗━━━━━━━━━━`
 }
